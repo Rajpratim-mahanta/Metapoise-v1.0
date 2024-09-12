@@ -1,0 +1,28 @@
+*::selection{
+    background-color: salmon;
+}
+
+.vdodiv{
+    clip-path: circle(var(--clip) at 50% 50%);
+}
+
+body[theme='black']{
+    background-color: black;
+    color: white;
+}
+
+body[theme='white']{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+body[theme='blue']{
+    background-color: rgb(134, 132, 233);
+    color: rgb(4, 33, 97);
+}
+
+body[theme='peace']{
+    background-color: rgb(240, 221, 235);
+    color: rgb(212, 122, 224);
+}
+
